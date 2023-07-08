@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="krug.css">
+    <title>hasy</title>
+</head>
+<style>
+    .hasy{
+        position: relative;
+        width: 500px;
+        height: 500px;
+        margin: 100px;
+        border: 6px solid darkcyan;
+        border-radius: 50%;       
+    }
+   
+    .hasy::before{
+    content: '';
+    width: 650px;
+    height: 600px;
+    left: -80px;
+    top: -60px;
+    border: 6px solid darkcyan;
+    position: absolute;
+    background-color: rgba(0, 139, 139, 0.493) ;
+    }
+         
+</style>
+<body>
+   <div class="hasy"></div>
+   <div class="sentr"></div>
+   <div class="has"></div>
+   <div class="minuta"></div>
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+.sentr{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: 250px;
+    left: 250px;
+    margin: 100px;
+    background: darkcyan;
+}
+.has{
+    position: absolute;
+    width: 6px;
+    height: 160px;
+    left: 254px;
+    top: 250px;
+    margin: 100px;
+    background: darkcyan;
+    animation: nov 900s infinite steps(900);
+    transform-origin: 0 5px;
+}
+.minuta{
+    position: absolute;
+    width: 4px;
+    height: 220px;
+    left: 252px;
+    top: 250px;
+    margin: 100px;
+    background: darkcyan;
+    animation: nev 300s infinite steps(300);
+    transform-origin: 0 3px;
+}
+@keyframes nov{
+    100%{
+    transform: rotate(360deg);
+    }
+}
+
+@keyframes nev{
+    100%{
+    transform: rotate(360deg);
+    }
+}
+
+
+.content:hover{
+    background-color: rgba(0, 139, 139, 0.493) ;
+}
